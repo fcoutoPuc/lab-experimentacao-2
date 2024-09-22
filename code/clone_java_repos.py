@@ -11,7 +11,7 @@ GITHUB_TOKEN = ""
 CK_JAR_PATH = ""
 CK_OUTPUT_PATH = ""
 PROJECTS_PATH = ""
-AVERAGES_CSV_PATH = os.path.join(PROJECTS_PATH, "averages.csv")
+AVERAGES_CSV_PATH = os.path.join(PROJECTS_PATH, "../averages.csv")
 
 
 def fetch_repositories(n_repos):

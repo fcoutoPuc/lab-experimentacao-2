@@ -49,22 +49,22 @@ Calculamos as médias das métricas de qualidade de código e comparamos esses v
 
 ## Resultados
 #### RQ 01. Qual a relação entre a popularidade dos repositórios e as suas características de qualidade?
-![Gráfico](rq01_cbo.png)
-![Gráfico](rq01_dit.png)
-![Gráfico](rq01_lcom.png)
+![Gráfico](rq01_cbo_grouped.png)
+![Gráfico](rq01_dit_grouped.png)
+![Gráfico](rq01_lcom_grouped.png)
 
 #### RQ 02. Qual a relação entre a maturidade do repositórios e as suas características de qualidade ?
-![Gráfico](rq02_cbo.png)
-![Gráfico](rq02_dit.png)
-![Gráfico](rq02_lcom.png)
+![Gráfico](rq02_cbo_grouped.png)
+![Gráfico](rq02_dit_grouped.png)
+![Gráfico](rq02_lcom_grouped.png)
 
 #### RQ 03. Qual a relação entre a atividade dos repositórios e as suas características de qualidade?
-![Gráfico](rq03_cbo.png)
-![Gráfico](rq03_dit.png)
-![Gráfico](rq03_lcom.png)
+![Gráfico](rq03_cbo_grouped.png)
+![Gráfico](rq03_dit_grouped.png)
+![Gráfico](rq03_lcom_grouped.png)
 
 
 #### RQ 04. Qual a relação entre o tamanho dos repositórios e as suas características de qualidade?
-![Gráfico](rq04_cbo.png)
-![Gráfico](rq04_dit.png)
-![Gráfico](rq04_lcom.png)
+![Gráfico](rq04_cbo_grouped.png)
+![Gráfico](rq04_dit_grouped.png)
+![Gráfico](rq04_lcom_grouped.png)
