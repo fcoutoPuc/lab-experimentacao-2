@@ -59,6 +59,8 @@ Calculamos as médias das métricas de qualidade de código e comparamos esses v
 ![Gráfico](rq02_lcom_grouped.png)
 
 #### RQ 03. Qual a relação entre a atividade dos repositórios e as suas características de qualidade?
+Observamos que projetos com maior atividade tendem a apresentar uma deterioração nas suas métricas de qualidade. Acreditamos que isso está diretamente relacionado ao aumento do tamanho dos repositórios; à medida que um projeto se torna mais ativo, seu crescimento em termos de código e complexidade também aumenta. Essa expansão pode dificultar a gestão e a manutenção das boas práticas de desenvolvimento, resultando em métricas de qualidade menos favoráveis. Portanto, a relação entre a atividade do projeto e a complexidade associada ao seu tamanho pode ser um fator crucial para entender essa deterioração. 
+
 ![Gráfico](rq03_cbo_grouped.png)
 ![Gráfico](rq03_dit_grouped.png)
 ![Gráfico](rq03_lcom_grouped.png)
