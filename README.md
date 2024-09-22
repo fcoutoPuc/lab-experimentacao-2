@@ -65,6 +65,11 @@ Calculamos as médias das métricas de qualidade de código e comparamos esses v
 
 
 #### RQ 04. Qual a relação entre o tamanho dos repositórios e as suas características de qualidade?
+
+Podemos observar uma relação direta entre o tamanho dos repositórios e o CBO (Coupling Between Objects) e o DIT (Depth of Inheritance Tree). À medida que o repositório cresce, tende a aumentar o nível de acoplamento e herença entre classes. Muito provavelmente, pois um maior número de linhas de código geralmente implica um maior número de classes. Como resultado, há uma maior probabilidade de interações entre essas classes, o que eleva o acoplamento.
+
+Além disso, também observamos que projetos de maior dimensão tendem a apresentar uma maior falta de coesão entre as classes. Essa tendência pode ser atribuída às dificuldades inerentes à gestão de um projeto mais extenso, onde a complexidade organizacional aumenta. Em grandes repositórios, a comunicação entre diferentes partes do código pode se tornar menos eficiente, resultando em classes que, em vez de trabalharem de maneira coesa em torno de uma única responsabilidade, acabam se espalhando por diversas funcionalidades.
+
 ![Gráfico](rq04_cbo_grouped.png)
 ![Gráfico](rq04_dit_grouped.png)
 ![Gráfico](rq04_lcom_grouped.png)
