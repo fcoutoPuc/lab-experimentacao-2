@@ -30,7 +30,7 @@ Nosso objetivo nesta pesquisa é analisar a qualidade do código e a maturidade 
 - Repositórios mais antigos terão métricas de qualidade de código mais aprimoradas devido à evolução contínua ao longo do tempo.
 
 ## Metodologia
-###Coleta de Dados:
+### Coleta de Dados:
 Utilizamos a API do GitHub para coletar os 1000 repositórios mais populares em Java, com base no número de estrelas. Para cada repositório, extraímos informações como o número de estrelas, lançamentos e a idade do repositório.
 
 ### Análise de Métricas de Código:
