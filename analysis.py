@@ -7,7 +7,6 @@ df = pd.read_csv('averages.csv')
 sns.set(style="whitegrid")
 
 
-# Função para gerar gráficos com dados agrupados
 def scatter_plot_grouped(x, y, xlabel, ylabel, title, filename, df, bins, bin_label):
     df[f'{x}_grouped'] = pd.cut(df[x], bins=bins, labels=bin_label)
     grouped = df.groupby(f'{x}_grouped')[y].mean().reset_index()
@@ -17,11 +16,9 @@ def scatter_plot_grouped(x, y, xlabel, ylabel, title, filename, df, bins, bin_la
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.savefig(filename, format='png')  # Salva o gráfico como arquivo PNG
-    plt.close()  # Fecha o gráfico para evitar sobreposição
+    plt.savefig(filename, format='png')
+    plt.close()
 
-
-# Funções específicas para as perguntas de pesquisa
 def analyze_rq01(df):
     bins_stars = [0, 10000, 20000, 30000, 40000, 50000, 100000]
     bin_labels_stars = ['0-10k', '10k-20k', '20k-30k', '30k-40k', '40k-50k', '50k-100k']
@@ -70,7 +67,6 @@ def analyze_rq04(df):
                          'rq04_lcom_grouped.png', df, bins_loc, bin_labels_loc)
 
 
-# Função principal que executa a análise para todas as perguntas
 def main():
     analyze_rq01(df)
     analyze_rq02(df)
